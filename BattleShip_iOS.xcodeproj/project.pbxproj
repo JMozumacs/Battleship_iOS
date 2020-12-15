@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE1A91492588F95100EADCDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1A91482588F95100EADCDF /* AppDelegate.swift */; };
+		FE1A914B2588F95100EADCDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1A914A2588F95100EADCDF /* SceneDelegate.swift */; };
+		FE1A914D2588F95100EADCDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1A914C2588F95100EADCDF /* ViewController.swift */; };
+		FE1A91502588F95100EADCDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1A914E2588F95100EADCDF /* Main.storyboard */; };
+		FE1A91522588F95400EADCDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE1A91512588F95400EADCDF /* Assets.xcassets */; };
+		FE1A91552588F95400EADCDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1A91532588F95400EADCDF /* LaunchScreen.storyboard */; };
+		FE1A91602588F95500EADCDF /* BattleShip_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1A915F2588F95500EADCDF /* BattleShip_iOSTests.swift */; };
+		FE1A916B2588F95500EADCDF /* BattleShip_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1A916A2588F95500EADCDF /* BattleShip_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE1A915C2588F95500EADCDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE1A913D2588F95100EADCDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE1A91442588F95100EADCDF;
+			remoteInfo = BattleShip_iOS;
+		};
+		FE1A91672588F95500EADCDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE1A913D2588F95100EADCDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE1A91442588F95100EADCDF;
+			remoteInfo = BattleShip_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE1A91452588F95100EADCDF /* BattleShip_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleShip_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1A91482588F95100EADCDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE1A914A2588F95100EADCDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FE1A914C2588F95100EADCDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE1A914F2588F95100EADCDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE1A91512588F95400EADCDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE1A91542588F95400EADCDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE1A91562588F95400EADCDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE1A915B2588F95500EADCDF /* BattleShip_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattleShip_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1A915F2588F95500EADCDF /* BattleShip_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleShip_iOSTests.swift; sourceTree = "<group>"; };
+		FE1A91612588F95500EADCDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE1A91662588F95500EADCDF /* BattleShip_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattleShip_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1A916A2588F95500EADCDF /* BattleShip_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleShip_iOSUITests.swift; sourceTree = "<group>"; };
+		FE1A916C2588F95500EADCDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE1A91422588F95100EADCDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1A91582588F95500EADCDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1A91632588F95500EADCDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE1A913C2588F95100EADCDF = {
+			isa = PBXGroup;
+			children = (
+				FE1A91472588F95100EADCDF /* BattleShip_iOS */,
+				FE1A915E2588F95500EADCDF /* BattleShip_iOSTests */,
+				FE1A91692588F95500EADCDF /* BattleShip_iOSUITests */,
+				FE1A91462588F95100EADCDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE1A91462588F95100EADCDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE1A91452588F95100EADCDF /* BattleShip_iOS.app */,
+				FE1A915B2588F95500EADCDF /* BattleShip_iOSTests.xctest */,
+				FE1A91662588F95500EADCDF /* BattleShip_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE1A91472588F95100EADCDF /* BattleShip_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FE1A91482588F95100EADCDF /* AppDelegate.swift */,
+				FE1A914A2588F95100EADCDF /* SceneDelegate.swift */,
+				FE1A914C2588F95100EADCDF /* ViewController.swift */,
+				FE1A914E2588F95100EADCDF /* Main.storyboard */,
+				FE1A91512588F95400EADCDF /* Assets.xcassets */,
+				FE1A91532588F95400EADCDF /* LaunchScreen.storyboard */,
+				FE1A91562588F95400EADCDF /* Info.plist */,
+			);
+			path = BattleShip_iOS;
+			sourceTree = "<group>";
+		};
+		FE1A915E2588F95500EADCDF /* BattleShip_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE1A915F2588F95500EADCDF /* BattleShip_iOSTests.swift */,
+				FE1A91612588F95500EADCDF /* Info.plist */,
+			);
+			path = BattleShip_iOSTests;
+			sourceTree = "<group>";
+		};
+		FE1A91692588F95500EADCDF /* BattleShip_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE1A916A2588F95500EADCDF /* BattleShip_iOSUITests.swift */,
+				FE1A916C2588F95500EADCDF /* Info.plist */,
+			);
+			path = BattleShip_iOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE1A91442588F95100EADCDF /* BattleShip_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE1A916F2588F95500EADCDF /* Build configuration list for PBXNativeTarget "BattleShip_iOS" */;
+			buildPhases = (
+				FE1A91412588F95100EADCDF /* Sources */,
+				FE1A91422588F95100EADCDF /* Frameworks */,
+				FE1A91432588F95100EADCDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BattleShip_iOS;
+			productName = BattleShip_iOS;
+			productReference = FE1A91452588F95100EADCDF /* BattleShip_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE1A915A2588F95500EADCDF /* BattleShip_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE1A91722588F95500EADCDF /* Build configuration list for PBXNativeTarget "BattleShip_iOSTests" */;
+			buildPhases = (
+				FE1A91572588F95500EADCDF /* Sources */,
+				FE1A91582588F95500EADCDF /* Frameworks */,
+				FE1A91592588F95500EADCDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE1A915D2588F95500EADCDF /* PBXTargetDependency */,
+			);
+			name = BattleShip_iOSTests;
+			productName = BattleShip_iOSTests;
+			productReference = FE1A915B2588F95500EADCDF /* BattleShip_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE1A91652588F95500EADCDF /* BattleShip_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE1A91752588F95500EADCDF /* Build configuration list for PBXNativeTarget "BattleShip_iOSUITests" */;
+			buildPhases = (
+				FE1A91622588F95500EADCDF /* Sources */,
+				FE1A91632588F95500EADCDF /* Frameworks */,
+				FE1A91642588F95500EADCDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE1A91682588F95500EADCDF /* PBXTargetDependency */,
+			);
+			name = BattleShip_iOSUITests;
+			productName = BattleShip_iOSUITests;
+			productReference = FE1A91662588F95500EADCDF /* BattleShip_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE1A913D2588F95100EADCDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					FE1A91442588F95100EADCDF = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					FE1A915A2588F95500EADCDF = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FE1A91442588F95100EADCDF;
+					};
+					FE1A91652588F95500EADCDF = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FE1A91442588F95100EADCDF;
+					};
+				};
+			};
+			buildConfigurationList = FE1A91402588F95100EADCDF /* Build configuration list for PBXProject "BattleShip_iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE1A913C2588F95100EADCDF;
+			productRefGroup = FE1A91462588F95100EADCDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE1A91442588F95100EADCDF /* BattleShip_iOS */,
+				FE1A915A2588F95500EADCDF /* BattleShip_iOSTests */,
+				FE1A91652588F95500EADCDF /* BattleShip_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE1A91432588F95100EADCDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1A91552588F95400EADCDF /* LaunchScreen.storyboard in Resources */,
+				FE1A91522588F95400EADCDF /* Assets.xcassets in Resources */,
+				FE1A91502588F95100EADCDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1A91592588F95500EADCDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1A91642588F95500EADCDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE1A91412588F95100EADCDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1A914D2588F95100EADCDF /* ViewController.swift in Sources */,
+				FE1A91492588F95100EADCDF /* AppDelegate.swift in Sources */,
+				FE1A914B2588F95100EADCDF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1A91572588F95500EADCDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1A91602588F95500EADCDF /* BattleShip_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1A91622588F95500EADCDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1A916B2588F95500EADCDF /* BattleShip_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE1A915D2588F95500EADCDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE1A91442588F95100EADCDF /* BattleShip_iOS */;
+			targetProxy = FE1A915C2588F95500EADCDF /* PBXContainerItemProxy */;
+		};
+		FE1A91682588F95500EADCDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE1A91442588F95100EADCDF /* BattleShip_iOS */;
+			targetProxy = FE1A91672588F95500EADCDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE1A914E2588F95100EADCDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE1A914F2588F95100EADCDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE1A91532588F95400EADCDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE1A91542588F95400EADCDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE1A916D2588F95500EADCDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE1A916E2588F95500EADCDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE1A91702588F95500EADCDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L94WPD668Z;
+				INFOPLIST_FILE = BattleShip_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lv.tet.battleship.BattleShip-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE1A91712588F95500EADCDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L94WPD668Z;
+				INFOPLIST_FILE = BattleShip_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lv.tet.battleship.BattleShip-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE1A91732588F95500EADCDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L94WPD668Z;
+				INFOPLIST_FILE = BattleShip_iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lv.tet.battleship.BattleShip-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BattleShip_iOS.app/BattleShip_iOS";
+			};
+			name = Debug;
+		};
+		FE1A91742588F95500EADCDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L94WPD668Z;
+				INFOPLIST_FILE = BattleShip_iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lv.tet.battleship.BattleShip-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BattleShip_iOS.app/BattleShip_iOS";
+			};
+			name = Release;
+		};
+		FE1A91762588F95500EADCDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L94WPD668Z;
+				INFOPLIST_FILE = BattleShip_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lv.tet.battleship.BattleShip-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BattleShip_iOS;
+			};
+			name = Debug;
+		};
+		FE1A91772588F95500EADCDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L94WPD668Z;
+				INFOPLIST_FILE = BattleShip_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lv.tet.battleship.BattleShip-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BattleShip_iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE1A91402588F95100EADCDF /* Build configuration list for PBXProject "BattleShip_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1A916D2588F95500EADCDF /* Debug */,
+				FE1A916E2588F95500EADCDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE1A916F2588F95500EADCDF /* Build configuration list for PBXNativeTarget "BattleShip_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1A91702588F95500EADCDF /* Debug */,
+				FE1A91712588F95500EADCDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE1A91722588F95500EADCDF /* Build configuration list for PBXNativeTarget "BattleShip_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1A91732588F95500EADCDF /* Debug */,
+				FE1A91742588F95500EADCDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE1A91752588F95500EADCDF /* Build configuration list for PBXNativeTarget "BattleShip_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1A91762588F95500EADCDF /* Debug */,
+				FE1A91772588F95500EADCDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE1A913D2588F95100EADCDF /* Project object */;
+}
