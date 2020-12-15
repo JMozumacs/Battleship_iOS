@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		FE1A91492588F95100EADCDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1A91482588F95100EADCDF /* AppDelegate.swift */; };
 		FE1A914B2588F95100EADCDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1A914A2588F95100EADCDF /* SceneDelegate.swift */; };
-		FE1A914D2588F95100EADCDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1A914C2588F95100EADCDF /* ViewController.swift */; };
+		FE1A914D2588F95100EADCDF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1A914C2588F95100EADCDF /* GameViewController.swift */; };
 		FE1A91502588F95100EADCDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1A914E2588F95100EADCDF /* Main.storyboard */; };
 		FE1A91522588F95400EADCDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE1A91512588F95400EADCDF /* Assets.xcassets */; };
 		FE1A91552588F95400EADCDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1A91532588F95400EADCDF /* LaunchScreen.storyboard */; };
 		FE1A91602588F95500EADCDF /* BattleShip_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1A915F2588F95500EADCDF /* BattleShip_iOSTests.swift */; };
 		FE1A916B2588F95500EADCDF /* BattleShip_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1A916A2588F95500EADCDF /* BattleShip_iOSUITests.swift */; };
+		FE1A91952589009A00EADCDF /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1A91932589009A00EADCDF /* GridCell.swift */; };
+		FE1A91962589009A00EADCDF /* GridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE1A91942589009A00EADCDF /* GridCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,7 @@
 		FE1A91452588F95100EADCDF /* BattleShip_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleShip_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1A91482588F95100EADCDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE1A914A2588F95100EADCDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FE1A914C2588F95100EADCDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE1A914C2588F95100EADCDF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		FE1A914F2588F95100EADCDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE1A91512588F95400EADCDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE1A91542588F95400EADCDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		FE1A91662588F95500EADCDF /* BattleShip_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattleShip_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1A916A2588F95500EADCDF /* BattleShip_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleShip_iOSUITests.swift; sourceTree = "<group>"; };
 		FE1A916C2588F95500EADCDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE1A91932589009A00EADCDF /* GridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
+		FE1A91942589009A00EADCDF /* GridCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,13 @@
 			children = (
 				FE1A91482588F95100EADCDF /* AppDelegate.swift */,
 				FE1A914A2588F95100EADCDF /* SceneDelegate.swift */,
-				FE1A914C2588F95100EADCDF /* ViewController.swift */,
+				FE1A914C2588F95100EADCDF /* GameViewController.swift */,
 				FE1A914E2588F95100EADCDF /* Main.storyboard */,
 				FE1A91512588F95400EADCDF /* Assets.xcassets */,
 				FE1A91532588F95400EADCDF /* LaunchScreen.storyboard */,
 				FE1A91562588F95400EADCDF /* Info.plist */,
+				FE1A91932589009A00EADCDF /* GridCell.swift */,
+				FE1A91942589009A00EADCDF /* GridCell.xib */,
 			);
 			path = BattleShip_iOS;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 				FE1A91552588F95400EADCDF /* LaunchScreen.storyboard in Resources */,
 				FE1A91522588F95400EADCDF /* Assets.xcassets in Resources */,
 				FE1A91502588F95100EADCDF /* Main.storyboard in Resources */,
+				FE1A91962589009A00EADCDF /* GridCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE1A914D2588F95100EADCDF /* ViewController.swift in Sources */,
+				FE1A914D2588F95100EADCDF /* GameViewController.swift in Sources */,
 				FE1A91492588F95100EADCDF /* AppDelegate.swift in Sources */,
 				FE1A914B2588F95100EADCDF /* SceneDelegate.swift in Sources */,
+				FE1A91952589009A00EADCDF /* GridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
