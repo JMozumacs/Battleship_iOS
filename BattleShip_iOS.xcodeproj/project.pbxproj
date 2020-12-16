@@ -17,6 +17,7 @@
 		FE1A916B2588F95500EADCDF /* BattleShip_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1A916A2588F95500EADCDF /* BattleShip_iOSUITests.swift */; };
 		FE1A91952589009A00EADCDF /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1A91932589009A00EADCDF /* GridCell.swift */; };
 		FE1A91962589009A00EADCDF /* GridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE1A91942589009A00EADCDF /* GridCell.xib */; };
+		FEA862162589A84100810436 /* Battle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA862152589A84100810436 /* Battle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		FE1A916C2588F95500EADCDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE1A91932589009A00EADCDF /* GridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
 		FE1A91942589009A00EADCDF /* GridCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridCell.xib; sourceTree = "<group>"; };
+		FEA862152589A84100810436 /* Battle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Battle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				FE1A91482588F95100EADCDF /* AppDelegate.swift */,
+				FEA862152589A84100810436 /* Battle.swift */,
 				FE1A914A2588F95100EADCDF /* SceneDelegate.swift */,
 				FE1A914C2588F95100EADCDF /* GameViewController.swift */,
 				FE1A914E2588F95100EADCDF /* Main.storyboard */,
@@ -268,6 +271,7 @@
 				FE1A914D2588F95100EADCDF /* GameViewController.swift in Sources */,
 				FE1A91492588F95100EADCDF /* AppDelegate.swift in Sources */,
 				FE1A914B2588F95100EADCDF /* SceneDelegate.swift in Sources */,
+				FEA862162589A84100810436 /* Battle.swift in Sources */,
 				FE1A91952589009A00EADCDF /* GridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -19,7 +19,39 @@
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kmL-4B-A1E">
                         <rect key="frame" x="0.0" y="0.0" width="113" height="104"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zsT-oK-72U">
+                                <rect key="frame" x="0.0" y="103" width="113" height="1"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="fqc-5x-pzN"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7YX-hz-3NF">
+                                <rect key="frame" x="112" y="0.0" width="1" height="104"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="jb7-Oe-iGo"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uyr-m6-q56">
+                                <rect key="frame" x="35.5" y="41.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="7YX-hz-3NF" secondAttribute="trailing" id="2zr-Gh-rHx"/>
+                            <constraint firstItem="7YX-hz-3NF" firstAttribute="top" secondItem="kmL-4B-A1E" secondAttribute="top" id="Aru-nU-9x3"/>
+                            <constraint firstItem="uyr-m6-q56" firstAttribute="centerY" secondItem="kmL-4B-A1E" secondAttribute="centerY" id="UCk-e3-3Jj"/>
+                            <constraint firstAttribute="trailing" secondItem="zsT-oK-72U" secondAttribute="trailing" id="X8p-oz-Ril"/>
+                            <constraint firstItem="uyr-m6-q56" firstAttribute="centerX" secondItem="kmL-4B-A1E" secondAttribute="centerX" id="YRs-a4-lj3"/>
+                            <constraint firstAttribute="bottom" secondItem="zsT-oK-72U" secondAttribute="bottom" id="k2K-dq-Kus"/>
+                            <constraint firstItem="zsT-oK-72U" firstAttribute="leading" secondItem="kmL-4B-A1E" secondAttribute="leading" id="rz1-rv-Yp9"/>
+                            <constraint firstAttribute="bottom" secondItem="7YX-hz-3NF" secondAttribute="bottom" id="vh5-hD-sVQ"/>
+                        </constraints>
                     </view>
                 </subviews>
             </view>
@@ -31,6 +63,9 @@
                 <constraint firstItem="kmL-4B-A1E" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="wOg-C6-awI"/>
             </constraints>
             <size key="customSize" width="113" height="104"/>
+            <connections>
+                <outlet property="title" destination="uyr-m6-q56" id="LjD-eK-fc2"/>
+            </connections>
             <point key="canvasLocation" x="112.31884057971016" y="121.875"/>
         </collectionViewCell>
     </objects>

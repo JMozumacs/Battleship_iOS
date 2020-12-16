@@ -15,5 +15,9 @@ class GridCell: UICollectionViewCell {
         super.awakeFromNib()
         // Initialization code
     }
+    
+    func setup(with tile: Battle.BoardTile) {
+        title.text = tile.description
+    }
 
 }
