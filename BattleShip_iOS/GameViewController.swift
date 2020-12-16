@@ -73,6 +73,8 @@ extension GameViewController: UICollectionViewDelegate, UICollectionViewDataSour
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-   
+        let operation = battle.addShip(.Battleship, player: currentPlayer, y: indexPath.section, x: indexPath.item)
+        battle = operation.battle
+        gridCollection.reloadData()
     }
 }
